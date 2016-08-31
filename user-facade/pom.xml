@@ -26,6 +26,15 @@
             <version>3.8.1</version>
             <scope>test</scope>
         </dependency>
+
+        <!--公共facade依赖-->
+        <dependency>
+            <groupId>org.nero.live</groupId>
+            <artifactId>common-facade</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <!--阿里巴巴dubbo依赖-->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>dubbo</artifactId>
