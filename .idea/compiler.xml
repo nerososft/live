@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="auth" />
+        <module name="chat" />
+        <module name="common-config" />
+        <module name="common-facade" />
+        <module name="common-parent" />
+        <module name="common-service" />
+        <module name="common-web" />
+        <module name="config" />
+        <module name="docment" />
+        <module name="facade" />
+        <module name="live" />
+        <module name="live-facade-user" />
+        <module name="live-user-facade" />
+        <module name="live-user-service" />
+        <module name="log" />
+        <module name="NClient" />
+        <module name="parent" />
+        <module name="parent (1)" />
+        <module name="parent (2)" />
+        <module name="pay-common-service" />
+        <module name="recharge" />
+        <module name="score" />
+        <module name="Server" />
+        <module name="srs" />
+        <module name="user" />
+        <module name="user (1) (com.nero.live.service)" />
+        <module name="user-facade" />
+        <module name="user-service" />
+        <module name="web" />
+      </profile>
+      <profile default="false" name="Annotation profile for live" enabled="true">
+        <sourceOutputDir name="../live/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../live/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="live.controller" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="auth" target="1.5" />
+      <module name="auth.service" target="1.5" />
+      <module name="chat" target="1.5" />
+      <module name="chat.service" target="1.5" />
+      <module name="Client" target="1.5" />
+      <module name="common-config" target="1.5" />
+      <module name="common-facade" target="1.5" />
+      <module name="common-parent" target="1.5" />
+      <module name="common-service" target="1.5" />
+      <module name="common-web" target="1.5" />
+      <module name="config" target="1.5" />
+      <module name="docment" target="1.5" />
+      <module name="facade" target="1.5" />
+      <module name="live" target="1.5" />
+      <module name="live-arent" target="1.5" />
+      <module name="live-common-config" target="1.5" />
+      <module name="live-common-facade" target="1.5" />
+      <module name="live-facade-user" target="1.5" />
+      <module name="live-parent" target="1.5" />
+      <module name="live-user-facade" target="1.5" />
+      <module name="live-user-service" target="1.5" />
+      <module name="live.controller" target="1.5" />
+      <module name="log" target="1.5" />
+      <module name="log.service" target="1.5" />
+      <module name="NClient" target="1.5" />
+      <module name="parent" target="1.5" />
+      <module name="parent (1)" target="1.5" />
+      <module name="parent (2)" target="1.5" />
+      <module name="pay-common-service" target="1.5" />
+      <module name="recharge" target="1.5" />
+      <module name="recharge.service" target="1.5" />
+      <module name="score" target="1.5" />
+      <module name="score.service" target="1.5" />
+      <module name="Server" target="1.6" />
+      <module name="srs" target="1.5" />
+      <module name="srs.service" target="1.5" />
+      <module name="user" target="1.5" />
+      <module name="user (1) (com.nero.live.service)" target="1.5" />
+      <module name="user-facade" target="1.5" />
+      <module name="user-service" target="1.5" />
+      <module name="user.service" target="1.5" />
+      <module name="web" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

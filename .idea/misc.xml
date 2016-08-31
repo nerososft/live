@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/auth.service" />
+    <file type="web" url="file://$PROJECT_DIR$/chat.service" />
+    <file type="web" url="file://$PROJECT_DIR$/common-facade" />
+    <file type="web" url="file://$PROJECT_DIR$/common-web" />
+    <file type="web" url="file://$PROJECT_DIR$/live-service-user" />
+    <file type="web" url="file://$PROJECT_DIR$/live.controller" />
+    <file type="web" url="file://$PROJECT_DIR$/log.service" />
+    <file type="web" url="file://$PROJECT_DIR$/Netty" />
+    <file type="web" url="file://$PROJECT_DIR$/recharge.service" />
+    <file type="web" url="file://$PROJECT_DIR$/score.service" />
+    <file type="web" url="file://$PROJECT_DIR$/srs.service" />
+    <file type="web" url="file://$PROJECT_DIR$/user" />
+    <file type="web" url="file://$PROJECT_DIR$/user-service" />
+    <file type="web" url="file://$PROJECT_DIR$/user.service" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/live/pom.xml" />
+        <option value="$PROJECT_DIR$/user/pom.xml" />
+        <option value="$PROJECT_DIR$/auth/pom.xml" />
+        <option value="$PROJECT_DIR$/score/pom.xml" />
+        <option value="$PROJECT_DIR$/chat/pom.xml" />
+        <option value="$PROJECT_DIR$/srs/pom.xml" />
+        <option value="$PROJECT_DIR$/recharge/pom.xml" />
+        <option value="$PROJECT_DIR$/log/pom.xml" />
+        <option value="$PROJECT_DIR$/user.service/pom.xml" />
+        <option value="$PROJECT_DIR$/Server/pom.xml" />
+        <option value="$PROJECT_DIR$/NClient/pom.xml" />
+        <option value="$PROJECT_DIR$/pay-common-service/pom.xml" />
+        <option value="$PROJECT_DIR$/live-common-facade/pom.xml" />
+        <option value="$PROJECT_DIR$/live-user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/live-user-facade/pom.xml" />
+        <option value="$PROJECT_DIR$/live-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/live-facade-user/pom.xml" />
+        <option value="$PROJECT_DIR$/live-common-config/pom.xml" />
+        <option value="$PROJECT_DIR$/live-service-user/pom.xml" />
+        <option value="$PROJECT_DIR$/live-common-service/pom.xml" />
+        <option value="$PROJECT_DIR$/docment/pom.xml" />
+        <option value="$PROJECT_DIR$/common-config/pom.xml" />
+        <option value="$PROJECT_DIR$/common-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/common-service/pom.xml" />
+        <option value="$PROJECT_DIR$/common-facade/pom.xml" />
+        <option value="$PROJECT_DIR$/common-web/pom.xml" />
+        <option value="$PROJECT_DIR$/user-facade/pom.xml" />
+        <option value="$PROJECT_DIR$/user-service/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

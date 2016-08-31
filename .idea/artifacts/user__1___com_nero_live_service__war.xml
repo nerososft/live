@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="user (1) (com.nero.live.service):war">
+    <output-path>$PROJECT_DIR$/live-service-user/target</output-path>
+    <root id="archive" name="user-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="user (1) (com.nero.live.service):war exploded" />
+    </root>
+  </artifact>
+</component>
