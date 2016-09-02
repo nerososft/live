@@ -26,7 +26,6 @@
         <module name="chat" />
         <module name="common-config" />
         <module name="common-facade" />
-        <module name="common-parent" />
         <module name="common-service" />
         <module name="common-web" />
         <module name="config" />

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - nero_live@localhost" uuid="fc4bcec4-91a0-43be-88ba-73056ffa03dd">
+    <database-info product="MySQL" version="5.7.13-0ubuntu0.16.04.2" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.5">
+      <schema id="1" name="nero_live"/>
+      <table id="2" parent="1" name="live_user">
+        <comment>会员表</comment>
+      </table>
+      <column id="3" parent="2" name="member_id">
+        <comment>会员id</comment>
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="4" parent="2" name="member_phone">
+        <comment>会员手机号</comment>
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+      </column>
+      <column id="5" parent="2" name="member_name">
+        <comment>会员绑定昵称</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(64)</data-type>
+      </column>
+      <column id="6" parent="2" name="member_email">
+        <comment>会员绑定邮箱</comment>
+        <data-type>varchar(64)</data-type>
+      </column>
+      <column id="7" parent="2" name="member_status">
+        <comment>会员状态：0.未绑定手机（未激活），1.绑定手机，2.绑定邮箱，3.实名认证，4.主播，100.冻结</comment>
+        <mandatory>1</mandatory>
+        <data-type>tinyint(4)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="8" parent="2" name="member_sex">
+        <comment>会员性别：0.秘密，1.男，2.女</comment>
+        <data-type>tinyint(4)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="9" parent="2" name="member_password">
+        <comment>会员密码</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(64)</data-type>
+      </column>
+      <column id="10" parent="2" name="member_token">
+        <comment>会员密钥</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(64)</data-type>
+      </column>
+      <column id="11" parent="2" name="member_last_login_time">
+        <comment>上一次上线时间</comment>
+        <data-type>datetime</data-type>
+        <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
+      </column>
+      <column id="12" parent="2" name="member_create_time">
+        <comment>会员注册时间</comment>
+        <data-type>datetime</data-type>
+        <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
+      </column>
+      <index id="13" parent="2" name="index_member_name">
+        <columns>member_name</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="14" parent="2" name="PRIMARY">
+        <columns>member_id</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+</component>

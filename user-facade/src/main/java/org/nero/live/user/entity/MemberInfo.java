@@ -7,10 +7,13 @@ import java.util.Date;
  * Created by nero on 16-8-30.
  */
 public class MemberInfo {
-    private long memberID;
+    private long memberId;
     private long memberPhone;
     private String memberName;
     private String memberEmail;
+    private String memberPassword;
+    private int memberSex;
+    private int memberStatus;
     private String memberToken;
     private Date memberLastLoginTime;
     private Date memberCreateTime;
@@ -18,12 +21,12 @@ public class MemberInfo {
     public MemberInfo() {
     }
 
-    public long getMemberID() {
-        return memberID;
+    public long getMemberId() {
+        return memberId;
     }
 
-    public void setMemberID(long memberID) {
-        this.memberID = memberID;
+    public void setMemberId(long memberId) {
+        this.memberId = memberId;
     }
 
     public long getMemberPhone() {
@@ -48,6 +51,30 @@ public class MemberInfo {
 
     public void setMemberEmail(String memberEmail) {
         this.memberEmail = memberEmail;
+    }
+
+    public String getMemberPassword() {
+        return memberPassword;
+    }
+
+    public void setMemberPassword(String memberPassword) {
+        this.memberPassword = memberPassword;
+    }
+
+    public int getMemberSex() {
+        return memberSex;
+    }
+
+    public void setMemberSex(int memberSex) {
+        this.memberSex = memberSex;
+    }
+
+    public int getMemberStatus() {
+        return memberStatus;
+    }
+
+    public void setMemberStatus(int memberStatus) {
+        this.memberStatus = memberStatus;
     }
 
     public String getMemberToken() {
@@ -77,10 +104,13 @@ public class MemberInfo {
     @Override
     public String toString() {
         return "MemberInfo{" +
-                "memberID=" + memberID +
+                "memberId=" + memberId +
                 ", memberPhone=" + memberPhone +
                 ", memberName='" + memberName + '\'' +
                 ", memberEmail='" + memberEmail + '\'' +
+                ", memberPasseord='" + memberPassword + '\'' +
+                ", memberSex=" + memberSex +
+                ", memberStatus=" + memberStatus +
                 ", memberToken='" + memberToken + '\'' +
                 ", memberLastLoginTime=" + memberLastLoginTime +
                 ", memberCreateTime=" + memberCreateTime +

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.nero.live.core.user.dao.MemberInfoDao">
+
+    <insert parameterType="MemberInfo" id="addMember">
+        INSERT INTO live_user (member_phone,member_name,member_email,member_password,member_sex,member_status,member_token)
+        VALUES (#{memberPhone},#{memberName},#{memberEmail},#{memberPassword},#{memberSex},#{memberStatus},#{memberToken})
+    </insert>
+
+</mapper>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - nero_live@localhost" uuid="fc4bcec4-91a0-43be-88ba-73056ffa03dd">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>nero_live.*</schema-pattern>
+      <default-schemas>nero_live.*</default-schemas>
+    </data-source>
+  </component>
+</project>
