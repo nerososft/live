@@ -1,6 +1,7 @@
 package org.nero.live.core.user.dao;
 
 import junit.framework.TestCase;
+import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.nero.live.user.entity.MemberInfo;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,12 +26,21 @@ public class MemberInfoDaoTest extends TestCase {
     @Resource
     private MemberInfoDao memberInfoDao;
 
+    @Test
     public void testGetMemberInfoByMemberId() throws Exception {
         System.out.println(memberInfoDao.getMemberInfoByMemberId(1).toString());
     }
 
+    @Test
     public void testAddMember() throws Exception {
         MemberInfo memberInfo = new MemberInfo();
+        memberInfo.setMemberPhone(121);
+        memberInfo.setMemberName("nero");
+        memberInfo.setMemberEmail("sss");
+        memberInfo.setMemberSex(1);
+        memberInfo.setMemberStatus(1);
+        memberInfo.setMemberPassword("sss");
+        memberInfo.setMemberToken("qq");
         memberInfoDao.addMember(memberInfo);
     }
 

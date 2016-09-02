@@ -18,10 +18,10 @@
 
 		</settings>
 
-	<mappers>
-		<!--用户-->
-		<mapper resource="mybatis/mapper/user/userAction.Mapper.xml" />
+	<!--<mappers>-->
+		<!--&lt;!&ndash;用户&ndash;&gt;-->
+		<!--<mapper resource="classpath:mybatis/mapper/user/userAction.Mapper.xml"/>-->
 
-	</mappers>
+	<!--</mappers>-->
 
 </configuration>

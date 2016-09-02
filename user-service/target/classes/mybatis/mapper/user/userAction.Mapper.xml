@@ -9,5 +9,4 @@
         VALUES (#{memberPhone},#{memberName},#{memberEmail},#{memberPassword},#{memberSex},#{memberStatus},#{memberToken})
     </insert>
 
-
 </mapper>

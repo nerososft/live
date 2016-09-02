@@ -15,12 +15,13 @@
   </properties>
 
   <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
+
+      <dependency>
+          <groupId>junit</groupId>
+          <artifactId>junit</artifactId>
+          <version>4.12</version>
+          <scope>test</scope>
+      </dependency>
     <!-- project dependencies-->
     <!--1:log log4j,slf4j,logback,common-logging-->
     <dependency>
@@ -169,6 +170,7 @@
       <artifactId>zookeeper</artifactId>
       <version>3.4.6</version>
     </dependency>
+
 
       <dependency>
           <groupId>com.github.sgroschupf</groupId>
